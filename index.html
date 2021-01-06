@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>JavaScript Experiments</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <!-- <h1>JavaScript Experiments!</h1>
+    <script src="./experiments.js"></script> -->
+    <div class="button-container">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+<script>
+  document.querySelector('.button-container').addEventListener('click', function(event) {
+    event.target.innerText = 'Clicked' ;
+  });
+</script>
+  </body>
+</html>
